@@ -1,0 +1,22 @@
+.input{
+    background-color: rgb(171, 181, 171);
+    width:50%;
+    margin:auto;
+    padding: 2em;
+    text-align: center;
+}
+.inputs{
+    border-style: solid;
+    border-color: white;
+    border-radius: 1em;
+    height: 2em;
+    margin: 1em;
+    text-align: center;
+}
+button{
+    padding:0.5em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5em;
+}
