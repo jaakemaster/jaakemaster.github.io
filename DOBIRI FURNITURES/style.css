@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.contacts{
+    background-color: #e0e9e9;
+    display:flex;
+    height: 3em;
+    flex-direction: row;
+    align-self:center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.contacts a{
+    color:black;
+}
+.nav{
+    background-color: rgb(15, 48, 54);
+    height:4em;
+    width: 100%;
+    display:flex;
+    position:sticky;
+    top:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin:1em;
+}
+.chatbot{
+    background-color: blanchedalmond;
+    border-style:solid;
+    border-color:blanchedalmond ;
+    margin:2em;
+    width:30em;
+    height:25em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.input{
+    width:25em;
+    height:4em;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-radius: 2em;
+    margin: 2em;
+    text-align: center;
+}
+.chatbot>h1{
+    text-align: center;
+}
+.top_img>img{
+    border-color: white;
+    display:flex;
+    margin-top: 2em;
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    height: 65em;
+}
+.nav>.logo>img{
+    display: flex;
+    width:3em;
+    height: 3em;
+    margin: 0.5em;
+}
+footer{
+    background-color: rgb(15, 48, 54);
+    margin-top:2em;
+    padding:1.5em;
+    width:100%;
+}
+.socials{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    width:10em;
+}
+.bottom{
+    display:flex;
+    flex-direction: row;
+}
+.quick_links{
+    display:flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 10em;
+    text-align: center;
+}
+.CONTACT_US,.socials,.quick_links{
+    margin-left:5em;
+}
+.contact_form{
+    background-color: white;
+    width:43%;
+    height:31em;
+    margin:auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.8em;
+    box-shadow:1px 1px 10px black;
+}
+.form_input{
+    border-style: solid;
+    border-color:#141313;
+    width:30em;
+    height:3em;
+    margin-top: 0.7em;
+    border-radius: 1em;
+    text-align: center;
+}
+#msg_btn{
+    background-color: lightgreen;
+    border-color: lightgreen;
+    border-radius: 1em;
+    width:20em;
+    height:3em;
+}
+#textarea{
+height: 10em;
+}
+.signup_form{
+    width:40%;
+    height: auto;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 5px 20px grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.signup_form .signup{
+    width:17em;
+    height:3em;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin: 3px;
+}
+.signup_form .login_link a{
+    color:black;
+}
+.main_category{
+    display:flex;
+    flex-direction:row ;
+    height:100%;
+}
+.categories{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(63, 84, 88) ;
+    height:100%;
+    width:20%;
+    text-align: center;
+    padding:2em;
+}
+.categories>.office_furniture,.beds,.sofas,.stands{
+margin:1em;
+}
+.categories a:active{
+    color:green;
+}
+.categories a:visited{
+    color:red;
+}
+.categories a:hover{
+    color:aqua;
+}
+.main_gallery{
+    display:flex;
+    flex-wrap: wrap;
+    width:95%;
+    margin:auto;
+    margin-top: 2em;
+    text-align: center;
+}
+.gallery img{
+    width:16em;
+    height:16em;
+    margin:0.5em;
+}
+.COPYRIGHT{
+    height:3em;
+    text-align: center;
+    margin: 0.5em;
+    background-color: #e0e9e9;
+}
+.about_us{
+    display:flex;
+    background-color: #ffffff;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    width:60%;
+    height:500px;
+}
+.about_us_image>img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width:35em;
+    height:35em;
+    border-radius: 50%;
+}
+.title{
+    margin:1em;
+}
+.title,.subtitle{
+    font-size: large;
+}
+.CONTACT_US{
+    color:#ffffff;
+}
