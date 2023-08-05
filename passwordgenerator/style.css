@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+    border-style: solid;
+    border-color: #787070;
+    box-shadow:4px 3px 15px 2px black ;
+    width:35em;
+    height:25em;
+    padding: 3em;
+    
+}
+#message,#btn,#caution,#generated{
+    margin: 1em;
+}
+#content>h2{
+    text-align: center;
+    text-shadow: 3px 3px 2px grey;
+}
+#btn>button{
+    background-color: rgb(232, 208, 172);
+    width:8em;
+    height:3.5em;
+    padding:1em;
+    border-radius: 8px;
+}
+
+body{
+    background-color: #ffffff;
+}
+#caution>h2{
+    color: red;
+}

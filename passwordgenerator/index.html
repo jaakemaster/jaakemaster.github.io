@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="passwordgenerator.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+            <h2>PASSWORD GENERATOR</h2>
+            <div id="message">
+                <h2>Want a secure password?</h2>
+                <h2>we gat you!</h2>
+                <h4>Click the button below to generate a random<br>
+                strong and secure password.</h4>
+            </div>
+                <div id="btn">
+                    <button onclick="random()">GENERATE</button>
+                    <button onclick="clearPassword()">CLEAR</button>
+                </div>
+                    <div id="generated">
+                        <form id="passwordForm">
+                            Your password is:<output id="generatedPassword"></output>
+                        </form>
+                    </div>
+                        <div id="caution">
+                            <h2>CAUTION !</h2>
+                            <h4>Please remember to carefully copy and <br>
+                            save your password</h4>
+                        </div>
+        </div>
+    </div>
+</body>
+</html>
